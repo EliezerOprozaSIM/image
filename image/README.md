@@ -1,2 +1,2 @@
 # image
-Projeto desenvolvido em sala de aula para exemplificar uso pratico das tecnilogias springs e react com post
+Projeto Desenvolvido em Sala de aula para exemplificar uso pratico de tecnologia springs e react com post.
