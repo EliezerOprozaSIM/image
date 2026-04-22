@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres
+    image: postgres:17-alpine
     restart: always
     environment:
       POSTGRES_USER: postgres
@@ -9,7 +9,7 @@ services:
     ports:
       - '5432:5432'
     volumes:
-      - ./data:/var/lib/postgresql/data
+      - ./data:/lib/postgresql/data
 
 
   pgadmin:
@@ -19,6 +19,6 @@ services:
       PGADMIN_DEFAULT_PASSWORD: admin
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
     ports:
-      - '15432:80'
+      - '15413:80'
     depends_on:
       - db
