@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/upload")
 @Slf4j
+
 public class ImagesController {
     //*
     // {"name": "", "size":100} //application/json
@@ -45,7 +46,5 @@ public class ImagesController {
             log.error("Falha crítica ao processar imagem: ", e);
             return ResponseEntity.internalServerError().body("Erro no servidor");
         }
-
-
     }
 }

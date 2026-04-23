@@ -1,4 +1,4 @@
-package io.spring.image.demo.domain.enums;
+package io.spring.image.demo.enums;
 
 import io.spring.image.demo.domain.entity.Image;
 import org.springframework.http.MediaType;

@@ -1,6 +1,5 @@
 package io.spring.image.demo.domain.entity;
 
-
 import io.spring.image.demo.domain.enums.ImageExtension;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -19,10 +18,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-
 public class Image {
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
